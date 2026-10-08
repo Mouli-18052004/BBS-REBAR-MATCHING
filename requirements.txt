@@ -1,0 +1,6 @@
+numpy==2.5.3
+opencv-python-headless==5.0.0.93
+networkx==3.7
+scikit-image==0.26.0
+streamlit==1.64.0
+pillow==12.3.0

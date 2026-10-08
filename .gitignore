@@ -159,6 +159,34 @@ ENV/
 env.bak/
 venv.bak/
 
+# Private company catalog and derived files: never publish these.
+/catalog.db
+/data/
+/models/
+/output/
+/tmp/
+/customer_data/
+/demo_data/customer/
+/data/shapes-catalog.pdf
+/catalog-*.pdf
+*.db
+!demo_catalog.db
+*.db-*
+*.pkl
+*.pickle
+*.pth
+*.pt
+*.sqlite
+*.sqlite3
+
+# Local settings and diagnostic artifacts
+.streamlit/secrets.toml
+.env.*
+!.env.example
+*.log
+.diagnostics/
+.coverage*
+
 # Spyder project settings
 .spyderproject
 .spyproject
